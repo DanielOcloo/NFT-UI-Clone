@@ -10,13 +10,6 @@ class MyAuctionDetailsPage extends StatefulWidget {
 }
 
 class _MyAuctionDetailsPageState extends State<MyAuctionDetailsPage> {
-  var _isVisible = false;
-  void updateStatus() {
-    setState(() {
-      _isVisible = !_isVisible;
-    });
-  }
-
   @override
   Widget build(BuildContext context) {
     return Scaffold(
