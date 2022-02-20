@@ -124,18 +124,18 @@ class _MyAuctionDetailsPageState extends State<MyAuctionDetailsPage> {
                 child: Text.rich(
                   TextSpan(
                     style: const TextStyle(
-                        fontWeight: FontWeight.bold, fontSize: 16),
+                        fontWeight: FontWeight.w700, fontSize: 16),
                     children: <TextSpan>[
                       TextSpan(
                         text:
                             'Who we were and what we will become are there, they are around us, they are battling, they are resting and they are being watched.....',
                         style: TextStyle(
-                          color: Colors.black.withOpacity(0.5),
+                          color: Colors.black.withOpacity(0.4),
                         ),
                       ),
                       const TextSpan(
                           text: 'More',
-                          style: TextStyle(fontWeight: FontWeight.w900))
+                          style: TextStyle(fontWeight: FontWeight.w700))
                     ],
                   ),
                 ),

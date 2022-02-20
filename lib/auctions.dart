@@ -139,9 +139,10 @@ class _MyAuctionPageState extends State<MyAuctionPage> {
                             child: Text(
                               'Enjoy! the latest hot auctions.',
                               style: TextStyle(
-                                  fontWeight: FontWeight.bold,
-                                  fontSize: 17,
-                                  color: Colors.black.withOpacity(0.5)),
+                                fontWeight: FontWeight.w700,
+                                fontSize: 17,
+                                color: Colors.black.withOpacity(0.3),
+                              ),
                             ),
                           ),
                         ],
@@ -375,9 +376,9 @@ class _MyAuctionPageState extends State<MyAuctionPage> {
                                   Text(
                                     'Remaining Time',
                                     style: TextStyle(
-                                        fontWeight: FontWeight.w900,
+                                        fontWeight: FontWeight.w700,
                                         fontSize: 15,
-                                        color: Colors.black.withOpacity(0.5)),
+                                        color: Colors.black.withOpacity(0.4)),
                                   ),
                                   const SizedBox(
                                     width: 102,
@@ -385,9 +386,9 @@ class _MyAuctionPageState extends State<MyAuctionPage> {
                                   Text(
                                     'Highest bid',
                                     style: TextStyle(
-                                        fontWeight: FontWeight.w900,
+                                        fontWeight: FontWeight.w700,
                                         fontSize: 15,
-                                        color: Colors.black.withOpacity(0.5)),
+                                        color: Colors.black.withOpacity(0.4)),
                                   ),
                                 ],
                               ),
